@@ -51,7 +51,7 @@ h2, h1{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
- url("../img/beach.jpg");
+ url("assets/img/beach.jpg");
  background-attachment: fixed;
 background-size: cover;
   }
