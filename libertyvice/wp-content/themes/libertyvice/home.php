@@ -78,7 +78,7 @@
     <h2 class="text-center pink">Band History</h2>
     <br>
     <div class="col-md-6 text-center col-md-offset-3">
-      <p><span class="pink">Liberty Vice</span> is made up of four childhood enemies who became best friends after discovering shared interests in violent video games and music. Jamming in basements, apartments, and any place that is willing to risk a noise violation ticket, <span class="pink">Liberty Vice</span> is working on their upcoming full length LP.</p>
+      <p><?php echo the_field('story'); ?></p>
     </div>
   </div>
   <div class="section col-md-12 text-center hideIt jumbotron" id="membersSection">
@@ -116,17 +116,15 @@
     </a>
       </br>
       <br>
-
       <h3 class="name">Problem With the Webzone? </h3>
       <p>Send our web guy some love! <br>
         <a href="mailto:eliezerwohl@gmail.com?Subject=problem%20with%20the%20webzone">
           <button class="btn btn-default col-sm-4 col-sm-offset-4  pinkButton btn-md">
-        click here</button></p>
-
-      </a>
-
+        click here
+        </button>
+       </p>
+    </a>
   </div>
-
 </div>
 
 <?php get_footer(); ?>
