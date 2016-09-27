@@ -15,6 +15,7 @@
 		
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>if (!window.jQuery) { document.write('<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/jquery.js"><\/script>'); }
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/javascript/mainpage.js"></script>
