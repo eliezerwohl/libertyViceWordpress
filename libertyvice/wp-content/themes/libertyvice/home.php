@@ -85,25 +85,25 @@
     <h2 class="text-center pink">Members </h2>
     <div class="row">
       <div class="col-md-6">
-        <h3 class="name">Hank DeHanko </h3>
-        <h4 class="instrument">Keys </h4>
-        <p>The only member of the group with any musical training, Hank spends his time making strange and terrible noises on a his various synthesizers. </p>
+        <h3 class="name"><?php echo the_field('name_1'); ?> </h3>
+        <h4 class="instrument"><?php echo the_field('instrument_1'); ?> </h4>
+        <p><?php echo the_field('bio_1'); ?></p>
       </div>
       <div class="col-md-6">
-        <h3 class="name">Dynamite Lee </h3>
-        <h4 class="instrument">Bass</h4>
-        <p>Unable to learn a real instrument, Dynamite has played bass for many years. His bass of choice is a Rickenbacker 4003.</p>
+        <h3 class="name"><?php echo the_field('name_2'); ?></h3>
+        <h4 class="instrument"><?php echo the_field('instrument_2'); ?></h4>
+        <p><?php echo the_field('bio_2'); ?></p>
       </div>
     </div>
     <div class="col-md-6">
-      <h3 class="name">Randy Lahey </h3>
-      <h4 class="instrument">Guitar </h4>
-      <p>Writer of all the band’s material. Uses a Fender Strat. Idolizes Johnny Ramone.</p>
+      <h3 class="name"><?php echo the_field('name_3'); ?></h3>
+      <h4 class="instrument"><?php echo the_field('instrument_3'); ?></h4>
+      <p><?php echo the_field('bio_3'); ?></p>
     </div>
     <div class="col-md-6">
-      <h3 class="name">Joey Spaggetti </h3>
-      <h4 class="instrument">Drums </h4>
-      <p>Hailing from Canada, Joey loves drums so much, he often programs them for recording purposes so he can spend more time jamming to Iron Maiden and Rush.
+      <h3 class="name"><?php echo the_field('name_4'); ?></h3>
+      <h4 class="instrument"><?php echo the_field('instrument_4'); ?></h4>
+      <p><?php echo the_field('bio_4'); ?>
       </p>
     </div>
   </div>
