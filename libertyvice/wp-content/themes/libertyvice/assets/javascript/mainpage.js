@@ -36,8 +36,6 @@ function fancyFade() {
 					console.log("done")
 					clearInterval(fadeLogo)
 				}
-				console.log(opacity)
-					// console.log(opacity )
 				$(".navbar").css('opacity', opacity)
 			}
 
